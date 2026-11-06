@@ -20,6 +20,7 @@ ul {
     overflow: hidden;
     background-color: #383b3d;
     display: flex;
+    justify-content: center;
 }
 
 ul li a {
@@ -39,3 +40,6 @@ ul li a.active {
     color: #191B1C;
 }
 
+.left_sidebar {
+    
+}
