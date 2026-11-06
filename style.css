@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "GRAD" 0;
+}
+
+header {
+    background-color: #595f61;   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #383b3d;
+    display: flex;
+}
+
+ul li a {
+    display: block;
+    color: #C2C9CC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #191B1C;
+}
+
+ul li a.active {
+    background-color: #9ba3a8;
+    color: #191B1C;
+}
+
